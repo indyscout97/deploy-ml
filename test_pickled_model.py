@@ -1,8 +1,9 @@
 # test_pickled_model.py
-from newdata import newdata
 import pickle
+import json
 
-newdata = newdata # load your newdata, see sections above...
+with open('newdata', 'r') as f:
+  newdata = json.load(f) # load your newdata, see sections above...
 
 with open('model.pkl' , 'rb') as f:
     # pickle the data dictionary using the highest protocol availabe
