@@ -1,6 +1,6 @@
-This repository is for testing the deployment of ML models.
+This repository is for testing the deployment of ML models. For example use and my own personal use, I will be using an ML model and data from my phishing project.
 
-#### Quick start:
+### Quick start:
 To install the required libraries, simply run: 'pip install -r requirements.txt' while in your desired virtual environment
 
 Model fitting:
@@ -17,5 +17,5 @@ Open a shell to the directory where the repository is saved.
 Run the following command to set Flask to run the ML app: 'export FLASK_APP=app.py'
 Then use the following command to start the server: 'flask run'
 
-Feeding the JSON data into the server using test_flask.py:
+Feeding the JSON data into the server to recieve predictions using test_flask.py:
 In a shell from the project directory, simply enter the command: 'python test_flask.py'
